@@ -5,11 +5,12 @@ import Footer from "@/components/footer/Footer";
 import { ThemeContextProvider } from "@/context/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
 import AuthProvider from "@/providers/AuthProvider";
+import NextTopLoader from 'nextjs-toploader';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Blog App",
+  title: "Food Recipe blog",
   description: "The best blog app!",
 };
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
               <div className="container">
                 <div className="wrapper">
                   <Navbar />
+                  <NextTopLoader />
                   {children}
                   <Footer />
                 </div>

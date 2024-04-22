@@ -8,8 +8,8 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <Image src="/logo.png" alt="lama blog" width={50} height={50} />
-          <h1 className={styles.logoText}>Lamablog</h1>
+          <Image src="/Savik.jpg" alt="lama blog" width={50} height={50} />
+          <h1 className={styles.logoText}>SavikDev</h1>
         </div>
         <p className={styles.desc}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -18,17 +18,25 @@ const Footer = () => {
           repellendus dorales.
         </p>
         <div className={styles.icons}>
-          <Image src="/facebook.png" alt="" width={18} height={18} />
-          <Image src="/instagram.png" alt="" width={18} height={18} />
-          <Image src="/tiktok.png" alt="" width={18} height={18} />
-          <Image src="/youtube.png" alt="" width={18} height={18} />
+          <Link href="https://t.me/savikdev">
+            <Image src="/Telegram_logo.svg.webp" alt="" width={18} height={18} />
+          </Link>
+          <Link href="https://instagram.com/savikdev">
+            <Image src="/instagram.png" alt="" width={18} height={18} />
+          </Link>
+          <Link href="https://www.youtube.com/channel/UCjc2-MWgtGcsEGYa1GM9hlA">
+            <Image src="/youtube.png" alt="" width={18} height={18} />
+          </Link>
+          <Link href="https://www.linkedin.com/in/savikdev">
+            <Image src="/LinkedIn_logo.png" alt="" width={18} height={18} />
+          </Link>
         </div>
       </div>
       <div className={styles.links}>
         <div className={styles.list}>
           <span className={styles.listTitle}>Links</span>
           <Link href="/">Homepage</Link>
-          <Link href="/">Blog</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="/">About</Link>
           <Link href="/">Contact</Link>
         </div>
@@ -41,10 +49,10 @@ const Footer = () => {
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>
-          <Link href="/">Facebook</Link>
-          <Link href="/">Instagram</Link>
-          <Link href="/">Tiktok</Link>
-          <Link href="/">Youtube</Link>
+          <Link href="https://t.me/savikdev">Telegram</Link>
+          <Link href="https://instagram.com/savikdev">Instagram</Link>
+          <Link href="https://www.youtube.com/channel/UCjc2-MWgtGcsEGYa1GM9hlA">Youtube</Link>
+          <Link href="https://www.linkedin.com/in/savikdev">Linkedin</Link>
         </div>
       </div>
     </div>
