@@ -10,8 +10,8 @@ import NextTopLoader from 'nextjs-toploader';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Food Recipe blog",
-  description: "The best blog app!",
+  title: "Ovqat retsepti blog sayti",
+  description: "Eng yaxshi blog sayt",
 };
 
 export default function RootLayout({ children }) {
